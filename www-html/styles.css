@@ -6,3 +6,20 @@ padding: 50px;
 .wrapper{
     padding: 25px;
 }
+pre {
+  font-weight: bold;
+}
+
+.logo {
+width: 300;
+height:auto;
+}
+
+li {
+  padding: 2px;
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+ 
+}

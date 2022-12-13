@@ -1,0 +1,41 @@
+<!DOCTYPE html> <!---My Code-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+
+<body>
+  <header>
+    <a href="index.html"><img class="logo" src="logo.png" /></a>
+  </header>
+  
+
+  <main>
+    <div class="wrapper">
+      <pre>
+
+sudo mv /usr/share/phpmyadmin /usr/share/phpmyadmin.old
+sudo mkdir /usr/share/phpmyadmin
+cd /tmp
+set VER=5.2.0
+mv ~/Downloads/phpMyAdmin-$VER-all-languages.zip .
+unzip phpMyAdmin-$VER-all-languages.zip
+sudo cp -r phpMyAdmin-$VER-all-languages/* /usr/share/phpmyadmin
+sudo cp /usr/share/phpmyadmin.old/config.sample.inc.php /usr/share/phpmyadmin/config.inc.php
+sudo chown -R www-data /usr/share/phpmyadmin
+
+</pre>
+    </div>
+  </main>
+  <footer>
+    <ul>Quick Links
+      <li><a href="PhpMyAdmin.html">PhpMyAdmin Upgrade</a></li>
+      <li><a href="https://github.com/dbierer/php-class-notes">PHP Class Notes</a></li>
+    </ul>
+  </footer>
+</body>
+
+</html>
