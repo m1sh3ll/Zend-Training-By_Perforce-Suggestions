@@ -1,3 +1,0 @@
-/home/vagrant/Zend/workspaces/DefaultWorkspace/sandbox/public/demos/FFI/cmake-build-debug/CMakeFiles/FFI.dir
-/home/vagrant/Zend/workspaces/DefaultWorkspace/sandbox/public/demos/FFI/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/vagrant/Zend/workspaces/DefaultWorkspace/sandbox/public/demos/FFI/cmake-build-debug/CMakeFiles/rebuild_cache.dir
